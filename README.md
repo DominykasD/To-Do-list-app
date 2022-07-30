@@ -1,4 +1,4 @@
-#To Do list app (WIP)
+# To Do list app (WIP)
 Simple To Do list app where you can add task that you have to do. you can mark them as complete, or delete them.
 
 ## Wireframe (WIP)
