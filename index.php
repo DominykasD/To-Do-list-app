@@ -14,8 +14,11 @@
     <?php
         $task = $_POST["task"];
         echo $task;
-        echo "Hello";
+        
     ?>
+    <!-- I need to save submited task and then display them
+        users should be able to check them and delete them. Use databases
+        for storing info -->
 </body>
 </html>
 
