@@ -7,27 +7,10 @@
     <title>To-Do list app</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="tasks.php" method="post">
         Task: <input name="task" type="text"> 
         <button>ADD</button>
     </form>
-
-    <?php
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "tasks";
-
-        // Create connection
-        $connect = new mysqli($servername, $username, $password, $dbname);
-
-        // Check connection
-        if ($connect -> connect_error) {
-            die("Connection failed: " . $connect -> connect_error);
-        }
-
-        
-    ?>
 </body>
 </html>
 
